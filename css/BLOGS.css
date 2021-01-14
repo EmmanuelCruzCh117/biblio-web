@@ -1,0 +1,54 @@
+#blog h3,
+h4,
+p {
+    font-size: 1.2rem;
+}
+
+#blog .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto;
+}
+
+#blog article {
+    margin: 5px;
+    width: auto;
+}
+
+#blog img {
+    margin: 10px;
+    width: 280px;
+    max-width: 280px;
+    height: 200px;
+}
+
+#blog video {
+    margin: 10px;
+    border: 4px solid rgb(228, 202, 154);
+}
+
+#blog .cont-blog {
+    border: 0.5rem solid rgb(252, 236, 206);
+    background: rgba(248, 225, 191, 0.911);
+    text-align: center;
+    width: fit-content;
+}
+
+@media (min-width:800px) {
+    #blog img {
+        margin: 10px;
+        width: 320px;
+        max-width: 320px;
+        height: 240px;
+    }
+}
+
+@media (min-width:1150px) {
+    #blog .contenedor {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        width: auto;
+    }
+}
